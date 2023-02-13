@@ -41,7 +41,7 @@ def cam():
 
         co = input('\033[1;37m [ + ]\033[1;32m Enter Country : \033[1;37m').upper()
 
-        headers = {"User-Agent": "Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68>
+        headers = {"User-Agent": "mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68>
 
         res = requests.get(f"http://www.insecam.org/en/bycountry/{co}", headers=headers).text
 
