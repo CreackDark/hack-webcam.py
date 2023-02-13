@@ -41,7 +41,7 @@ def cam():
 
         co = input('\033[1;37m [ + ]\033[1;32m Enter Country : \033[1;37m').upper()
 
-        headers = {"User-Agent": "mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68>
+        headers = {"User-Agent": 'mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68>
 
         res = requests.get(f"http://www.insecam.org/en/bycountry/{co}", headers=headers).text
 
@@ -59,7 +59,7 @@ def cam():
 
         ip = re.findall(r"http://\d+.\d+.\d+.\d+:\d+", req)
 
-        for i in ip:
+        for i in ip:i
         print("\n\033[1;37m [ ✓ ] \033[1;31m",i)
 
         input("\n \033[1;37m Welcome In Creack_Dark Code Is Thank You \n")
